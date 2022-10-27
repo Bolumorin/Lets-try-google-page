@@ -1,0 +1,122 @@
+body {
+    background-color: #202124;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:25%;
+    margin-left: auto;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav img{
+    height: 20px;
+}
+#profile-pic {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#google-pic {
+    margin-top: 70px;
+}
+div.audio-icon {
+    border: 1.5px solid rgb(204, 203, 203);
+    border-radius: 100px;
+    max-width: 70%;
+    padding: 8px;
+    margin: 0px 0 0 100px;
+}
+input{
+    width: 60%;
+    padding: 7px;
+    border: 1px white;
+    background-color: transparent;
+}
+img.search {
+    max-height: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+img.mic {
+    max-height: 20px;
+    margin-left: 100px;
+    /* background-color: ; */
+}
+div.playwords {
+    margin: 20px 0 0 10px;
+}
+button {
+    padding: 15px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+div.security {
+    color: rgb(138, 135, 135);
+    margin: 20px
+}
+
+div.languages {
+    margin-top: 40px;
+    color: rgb(121, 118, 118);
+}
+
+div>a {
+    text-decoration: none;
+    color: rgb(59, 59, 252);
+}
+a.hausa , a.igbo , a.yoruba , a.pidgin{
+    margin-right: 10px;
+}
+
+div.nigeria {
+    margin: 190px 0 0 0;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    color: rgb(102, 99, 99);
+}
+div.carbon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+img.leaf {
+    max-height: 100px;
+    margin-right: 5px;
+}
+
+div.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+div.last {
+    display: flex;
+    justify-content: space-between;
+}
+a.about , a.advertising , a.searchworks , a.business , a.privacy , a.terms , a.settings{
+    margin-right: 20px;
+    color: rgb(121, 118, 118);
+}
+
+
+div.lastfoot {
+    margin-right: 50px;
+}
