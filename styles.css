@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #202124;
 }
 nav{
@@ -10,6 +10,9 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 nav img{
     height: 20px;
@@ -76,9 +79,12 @@ div.languages {
 
 div>a {
     text-decoration: none;
-    color: rgb(59, 59, 252);
+    color: rgb(146, 146, 241);
 }
-a.hausa , a.igbo , a.yoruba , a.pidgin{
+div>a:hover{
+    text-decoration: underline;
+}
+a.lang{
     margin-right: 10px;
 }
 
@@ -91,27 +97,26 @@ div.nigeria {
 div.carbon {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 20px;
+    
 }
 
 
 img.leaf {
-    max-height: 100px;
+    max-height: 15px;
     margin-right: 5px;
 }
 
 div.foot {
     display: flex;
     justify-content: space-between;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 div.last {
     display: flex;
     justify-content: space-between;
 }
-a.about , a.advertising , a.searchworks , a.business , a.privacy , a.terms , a.settings{
+a.end{
     margin-right: 20px;
     color: rgb(121, 118, 118);
 }
