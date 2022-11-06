@@ -1,0 +1,299 @@
+*{
+  font-family: Arial, sans-serif;
+}
+
+body {
+  /* background-color: #202124; */
+  height: 100vh;
+}
+
+.container{
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 0px;
+  /* margin-bottom: -63px; */
+  /* justify-content: space-around;
+  width:25%;
+  margin-left: auto; */
+}
+
+.link{
+  display:flex;
+  justify-content: end;
+  align-items: center; 
+}
+
+.left-link{
+  display: flex;
+  font-size: 13px;
+  margin: 10px;
+line-height: 27px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.right-link{
+  display: flex;
+  font-size: 13px;
+  margin: 10px;
+line-height: 27px;
+  vertical-align: middle;
+  margin-left: 18px;
+}
+
+#nine-dots{
+  height: 23px;
+  width: 20px;
+  margin-top: 3px;
+}
+
+#profile-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-top: 3px;
+  margin-right: -31px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#main{
+  display: block;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.gooooogul{
+  height: 150px;
+}
+
+.main{
+  display: flex;
+}
+
+nav img{
+  height: 20px;
+}
+
+main{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+/* #google-pic {
+  margin-top: 70px;
+} */
+
+.searchbar{
+  display: flex;
+  justify-content: center; 
+}
+
+div.audio-icon {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 100px;
+  width: 550px;
+  /* max-width: 52%; */
+  padding: 8px;
+  /* margin: 0px 0 0 298px; */
+}
+
+div.audio-icon:hover{
+  border: 1px solid rgb(204, 203, 203);
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+input{
+  width: 60%;
+  padding: 7px;
+  border: 1px white;
+  background-color: transparent;
+}
+img.search {
+  max-height: 20px;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+img.mic {
+  height: 25px;
+  margin-left: 100px;
+}
+
+img.google-lens{
+  margin-left: 15px;
+  height: 25px;
+}
+
+.playwords {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 10px;
+}
+button {
+  padding: 15px;
+  /* background-color: rgb(61, 58, 58);
+  border-radius: 5px; */
+  /* width: 20%; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+  height: 32px;
+  padding: 0 16px;
+  line-height: 27px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  margin: 11px 6px;
+}
+
+button:hover{
+  border: 1px solid #dfe1e5;
+}
+
+.security {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  margin-bottom: 18px;
+  color: rgb(138, 135, 135);
+  font-size: 13px;
+  margin: 20px
+}
+
+.link-2{
+  color: blue;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  color: rgb(121, 118, 118);
+  font-size: 13px;
+  margin: 25px;
+  
+}
+
+.link-3{
+  color: blue;
+  margin: 7px;
+}
+
+.link-3:hover{
+  text-decoration: underline;
+}
+
+/* div>a {
+  text-decoration: none;
+  color: rgb(146, 146, 241);
+}
+div>a:hover{
+  text-decoration: underline;
+}
+a.lang{
+  margin-right: 10px;
+} */
+
+.nigeria {
+  margin: 190px 0 0 0;
+  border-bottom: 1px solid #dadce0;
+  width: 100%;
+  color: rgb(102, 99, 99);
+  font-size: 15px;
+  padding: 15px 30px;
+}
+
+.carbon {
+  /* display: flex;
+  justify-content: center; */
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+  justify-content: flex-start;
+}
+
+
+.leaf {
+  max-height: 15px;
+  margin-right: 5px;
+  width: 10px;
+}
+
+.leaf-text{
+  color: #70757a;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 6px;
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+  /* padding: 15px; */
+  justify-content: flex-start;
+  min-width: 30%;
+}
+
+.end{
+  /* margin-right: 20px; */
+  color: rgb(121, 118, 118);
+  display: block;
+  font-size: 15px;
+  padding: 15px;
+}
+
+
+.lastfoot {
+  /* margin-right: 50px;
+  color: #70757a;
+  font-size: 14px;
+  padding: 15px; */
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+  justify-content: flex-end;
+  min-width: 30%;
+}
+
+.end-link{
+  color: rgb(121, 118, 118);
+  justify-content: flex-end;
+  font-size: 14px;
+  padding: 15px; 
+}
